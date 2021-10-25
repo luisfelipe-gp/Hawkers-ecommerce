@@ -1,0 +1,140 @@
+//start shop
+
+.shop{
+    margin-top: 22px;
+}
+
+.shop-wrapper{
+    margin: 0 16px 60px 16px;
+
+}
+
+
+.shop-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+        font-weight: bold;
+        font-size: .75rem;
+        letter-spacing: .5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .title-b{
+        color: #4c7fef;
+    }
+}
+
+
+
+.items-wrapper{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .8rem;
+
+
+    .item{
+        display: flex;
+        flex-flow: column;
+        overflow: hidden;
+
+        .item-container__a{
+
+            position: relative;
+
+            a{
+                display: block;
+                img{
+                    width: 100%;
+                    display: block;  
+    
+                }
+
+            }
+          
+
+            button{
+                cursor: pointer;
+                position: absolute;
+                right: 10px;
+                bottom: 10px;
+                padding: 5px;
+                width: 35px;
+                height: 35px;
+                border: none;
+                background-color: white;
+
+                i{
+                    color: rgb(59, 59, 59);
+                }
+            } 
+            
+            
+            .more-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateY(-50%) translateX(-50%);
+
+
+                i{
+                    cursor: pointer;
+                    font-size: 2rem;
+                    color: rgb(63, 63, 63);
+                }
+
+                a{
+                    text-decoration: none;
+                    color: rgb(78, 78, 78);
+                    text-transform: uppercase;
+                    margin-top: 10px;
+                    font-size: 1rem;
+                    font-family: 'Roboto', sans-serif;
+                }
+
+            }
+        }
+
+
+        .item-container__b{
+
+            margin-top: 6px;
+
+            h3{
+
+                a{
+                    //display: block;
+                    text-decoration: none;
+                    color: #919191;
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 400 ;
+                    letter-spacing: 1px;
+                }
+            }
+
+
+            p{
+
+                font-weight: 500;
+                font-size: .9rem;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+
+    }
+}
+
+//end shop

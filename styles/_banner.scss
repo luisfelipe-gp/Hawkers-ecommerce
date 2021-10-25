@@ -1,0 +1,75 @@
+//start main
+
+
+main{
+    width: 100%;
+    padding-top: 110px;
+    
+}
+
+//start bannner
+.banner{
+
+    .banner-container{
+
+        .image3{
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+        }
+
+        .image2{
+            display: none;
+        }
+
+        .image1{
+            display: none;
+        }
+    }
+}
+
+//end bannner
+
+
+
+//start title
+
+.title{
+    margin-top: 10px;
+
+    .title-container{
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+
+
+        .container-h1{
+
+            font-size: 1.35rem;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            font-family: 'Fjalla One', sans-serif;
+            font-weight:lighter;
+        }
+
+        .container-p1{
+
+            font-size: .95rem;
+            margin-bottom: 8px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .container-p2{
+
+            font-size: .6rem;
+            font-family: 'Roboto', sans-serif;
+        }
+
+
+    }
+}
+
+//end title

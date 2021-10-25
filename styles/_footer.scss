@@ -1,0 +1,144 @@
+
+//start footer
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.footer-a{
+    display: flex;
+    justify-content: center;
+    border-top: .125rem solid #efefef;
+    padding: 1rem;
+}
+
+.a-container{
+
+    a{
+        font-size: 1.7rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+}
+
+
+.footer-b{
+    border-top: .125rem solid #efefef;
+    border-bottom: .125rem solid #efefef;
+    padding: 20px;
+
+    .b-list{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 8px;
+
+        li{
+            list-style: none;
+            margin: 6px;
+
+
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 10px;
+                color: #303030;
+                letter-spacing: .097rem;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+    }
+}
+
+
+.footer-c{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+
+    .c-container-a{
+        text-align: center;
+        margin-bottom: 1.7rem;
+
+        .a-container-paragraph{
+            color: #303030;
+            font-family: 'Roboto', sans-serif;
+            font-size: 12px;
+            margin-bottom: 5px;
+           
+        }
+
+        .list-cards{
+            
+            i{
+                font-size: 2rem;
+                margin-right: 8px; 
+            }
+        }
+
+    }
+
+    .c-container-b{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .b-container-paragraph{
+            color: #303030;
+            font-family: 'Roboto', sans-serif;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+
+        .icon-container{
+            display: flex;
+            align-items: center;
+
+            i{
+                margin-right: 8px;
+
+            }
+
+            p{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 600;
+                text-transform: uppercase;
+                color: #303030;
+                font-size: 11px;
+                
+
+            }
+
+        }
+    }
+
+
+}
+
+
+.footer-d{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: .8rem;
+    background-color: rgb(32, 32, 32);
+    padding: 20px 0;
+
+    .d-container{
+        width: 90%;
+        margin: auto;
+        color: white;
+        font-size: 9px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: .09rem;
+        text-transform: uppercase;
+
+    }
+}
